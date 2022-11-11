@@ -1,0 +1,52 @@
+.container {
+    max-width: 350px;
+    margin: 0 auto 0 auto;
+    height: auto;
+}
+
+#display {
+    text-align: right;
+    height: 50px;
+    line-height: 60px;
+    padding: 15px 8px;
+    font-size: 2rem;
+    background-color:rgb(97, 237, 54) ;
+    border: 3px solid rgb(227, 223, 92); ;
+}
+
+.buttons {
+    display: grid;
+    /* border-bottom: 5px solid red; */
+    border: 5px solid rgb(227, 223, 92);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: linear-gradient(rgb(97, 237, 54),rgb(7, 211, 238));
+}
+
+.button {
+    border: 1px solid  rgb(191, 142, 6);
+    line-height: 110px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(15, 173, 157);
+    color: rgb(33, 11, 18);
+}
+
+.button:hover,#clear:hover,#back:hover,#equal:hover{
+    background-color: #056067;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#clear
+{
+  background-color: rgb(59, 169, 58);
+  
+}
+
+#back{
+   background-color: rgb(54, 186, 54);
+}
